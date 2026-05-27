@@ -10,7 +10,7 @@ import os
 from copy import deepcopy
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
@@ -309,8 +309,16 @@ def root():
 
 
 @app.get("/capabilities")
-def get_capabilities():
-    return capabilities
+def get_capabilities(practice_area: str | None = Query(default=None)):
+    if practice_area is None:
+        return capabilities
+
+    normalized_practice_area = practice_area.strip().lower()
+    return {
+        name: details
+        for name, details in capabilities.items()
+        if details["practice_area"].lower() == normalized_practice_area
+    }
 
 
 @app.get("/consultants")
