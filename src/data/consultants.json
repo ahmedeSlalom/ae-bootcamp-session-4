@@ -1,0 +1,202 @@
+{
+  "consultants": [
+    {
+      "email": "alice.smith@slalom.com",
+      "name": "Alice Smith",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Cloud Architecture"
+      ]
+    },
+    {
+      "email": "amelia.lee@slalom.com",
+      "name": "Amelia Lee",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "UX/UI Design"
+      ]
+    },
+    {
+      "email": "ava.garcia@slalom.com",
+      "name": "Ava Garcia",
+      "practice_area": "Operations",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Change Management"
+      ]
+    },
+    {
+      "email": "benjamin.hall@slalom.com",
+      "name": "Benjamin Hall",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Business Intelligence"
+      ]
+    },
+    {
+      "email": "bob.johnson@slalom.com",
+      "name": "Bob Johnson",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Cloud Architecture"
+      ]
+    },
+    {
+      "email": "charlotte.young@slalom.com",
+      "name": "Charlotte Young",
+      "practice_area": "Operations",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Agile Coaching"
+      ]
+    },
+    {
+      "email": "ella.clark@slalom.com",
+      "name": "Ella Clark",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "email": "emma.davis@slalom.com",
+      "name": "Emma Davis",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Data Analytics"
+      ]
+    },
+    {
+      "email": "harper.white@slalom.com",
+      "name": "Harper White",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "UX/UI Design"
+      ]
+    },
+    {
+      "email": "henry.king@slalom.com",
+      "name": "Henry King",
+      "practice_area": "Operations",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Agile Coaching"
+      ]
+    },
+    {
+      "email": "james.walker@slalom.com",
+      "name": "James Walker",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Business Intelligence"
+      ]
+    },
+    {
+      "email": "john.brown@slalom.com",
+      "name": "John Brown",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "DevOps Engineering"
+      ]
+    },
+    {
+      "email": "liam.anderson@slalom.com",
+      "name": "Liam Anderson",
+      "practice_area": "Strategy",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Digital Strategy"
+      ]
+    },
+    {
+      "email": "mia.rodriguez@slalom.com",
+      "name": "Mia Rodriguez",
+      "practice_area": "Operations",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Change Management"
+      ]
+    },
+    {
+      "email": "noah.martinez@slalom.com",
+      "name": "Noah Martinez",
+      "practice_area": "Strategy",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Digital Strategy"
+      ]
+    },
+    {
+      "email": "olivia.taylor@slalom.com",
+      "name": "Olivia Taylor",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "DevOps Engineering"
+      ]
+    },
+    {
+      "email": "scarlett.lewis@slalom.com",
+      "name": "Scarlett Lewis",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "email": "sophia.wilson@slalom.com",
+      "name": "Sophia Wilson",
+      "practice_area": "Technology",
+      "title": "Consultant",
+      "availability": null,
+      "certifications": [],
+      "capability_registrations": [
+        "Data Analytics"
+      ]
+    }
+  ]
+}
