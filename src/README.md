@@ -39,6 +39,9 @@ A FastAPI application that enables Slalom consultants to register their capabili
 | GET    | `/capabilities`                                                   | Get all capabilities with details and current consultant assignments |
 | POST   | `/capabilities/{capability_name}/register?email=consultant@slalom.com` | Register consultant for a capability                     |
 | DELETE | `/capabilities/{capability_name}/unregister?email=consultant@slalom.com` | Unregister consultant from a capability              |
+| GET    | `/consultants`                                                    | Get the persisted consultant records and registrations              |
+| GET    | `/consultants/export`                                             | Export all consultant records as JSON                              |
+| POST   | `/consultants/import`                                             | Replace consultant records in bulk from JSON                       |
 
 ## Data Model
 
@@ -62,6 +65,37 @@ The application uses a consulting-focused data model:
    - Availability
 
 All data is currently stored in memory for this learning exercise. In a production environment, this would be backed by a robust database system.
+
+## Consultant Persistence
+
+Consultant records and capability registrations are now persisted to `src/data/consultants.json`.
+If the file does not exist, the app creates it on startup from the seeded consultant registrations.
+
+### Bulk Import Format
+
+Use `POST /consultants/import` with a JSON payload shaped like this:
+
+```json
+{
+   "consultants": [
+      {
+         "email": "jane.doe@slalom.com",
+         "name": "Jane Doe",
+         "practice_area": "Technology",
+         "title": "Principal Consultant",
+         "availability": 32,
+         "certifications": ["AWS Solutions Architect"],
+         "capability_registrations": ["Cloud Architecture", "DevOps Engineering"]
+      }
+   ]
+}
+```
+
+The import validates duplicate emails, malformed email addresses, and unknown capabilities before replacing the stored consultant dataset.
+
+### Export
+
+Use `GET /consultants/export` to retrieve the full consultant dataset for reporting or downstream sync workflows.
 
 ## Future Enhancements
 
